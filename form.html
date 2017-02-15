@@ -44,17 +44,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script>
-        function myMap() {
-            var mapCanvas = document.getElementById("map");
-            var mapOptions = {
-                center: new google.maps.LatLng(25.777634, -80.190732),
-                zoom: 10
-            };
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-        }
-    </script>
 </head>
 
 <body>
@@ -191,7 +180,17 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
     <!--Maps-->
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+     <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 25.777634, lng:  -80.190732},
+          zoom: 8
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqNHzUbH-41yB0AH2KUTII6WzYBbaY8Js&callback=initMap" type="text/javascript"></script>
+   
     <!-- Validator Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
     <!-- Theme JavaScript -->

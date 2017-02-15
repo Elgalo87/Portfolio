@@ -1,0 +1,4 @@
+//Form validation
+$(() => {
+    $('form').validator();
+});

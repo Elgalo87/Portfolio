@@ -1,0 +1,35 @@
+header {
+    background-image: url('../img/backgroundAbout.png');
+    background-size: cover;
+}
+
+@media(max-width:768px) {
+    header {
+        background-image: url('../img/backgroundAbout.png');
+        background-size: 100%;
+    }
+}
+
+div.header-content>div img[alt="profile picture"] {
+    width: 90%;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+div.header-content>div img:hover {
+    box-shadow: none;
+}
+
+header div.jumbotron div>p,
+header div.jumbotron h1,
+header div.jumbotron h3 {
+    color: black !important;
+}
+
+div.jumbotron {
+    background-color: rgba(255, 255, 255, .98);
+    margin-top: 70px;
+    height: 50% !important;
+    box-shadow: 2px 2px 10px gray;
+}

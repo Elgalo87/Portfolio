@@ -2,6 +2,15 @@
 Form inside of the popup
 */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-shadow: 2px 2px 6px black;
+}
+
 #test-form {
     width: 50%;
     height: 100%;

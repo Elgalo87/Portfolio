@@ -1,18 +1,18 @@
 $(() => {
     const $backGround = $("img[alt='laptop1']");
     /* Effects Plugins*/
-    $(".animsition").animsition({
+    $(".animsition, .header-content-inner").animsition({
         inClass: 'fade-in-right-lg',
         outClass: 'fade-out-right-lg',
         inDuration: 1500,
         outDuration: 800,
     });
-    $(".header-content-inner").animsition({
-        inClass: 'fade-in-up-lg',
-        outClass: 'fade-out-up-lg',
-        inDuration: 3000,
-        outDuration: 1000,
-    });
+    // $(".header-content-inner").animsition({
+    //     inClass: 'fade-in-up-lg',
+    //     outClass: 'fade-out-up-lg',
+    //     inDuration: 3000,
+    //     outDuration: 1000,
+    // });
     /*
       POPUP
      */

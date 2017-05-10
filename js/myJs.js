@@ -79,6 +79,8 @@ $(() => {
         delay: 50,
     });
     $('#test-form').validator();
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
 // Triggered the form by time
 function explode() {

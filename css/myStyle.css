@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 1px 1px black;
 }
 
 #test-form {
@@ -122,8 +122,8 @@ About
     background-color: white;
 }
 #gallery1 div.row div.col-sm-6 div.thumbnail:hover {
-  box-shadow: 3px 3px 10px black;
-  transition: box-shadow 1s;
+  box-shadow: 1px 1px 1px black;
+  transition: box-shadow .3s;
 }
 
 
@@ -161,6 +161,18 @@ footer div:nth-child(2)>ul li:nth-child(1)>ul {
     margin: 10px;
 }
 
+.tooltip-inner {
+  margin: 5px;
+}
+
+#gallery1 h3 {
+  font-size: 18px;
+   text-shadow: 1px 1px black;
+ }
+
+ #gallery1 a {
+   text-decoration: none;
+ }
 /** {
     border: 1px blue solid;
 }*/

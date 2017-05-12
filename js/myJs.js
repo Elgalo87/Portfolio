@@ -78,7 +78,6 @@ $(() => {
         easing: 'ease-in-sine',
         delay: 50,
     });
-    $('#test-form').validator();
 
     $('[data-toggle="tooltip"]').tooltip();
 });

@@ -1,7 +1,7 @@
 $(() => {
     const $backGround = $("img[alt='laptop1']");
     /* Effects Plugins*/
-    $(".animsition, .header-content-inner").animsition({
+    $(".animsition").animsition({
         inClass: 'fade-in-right-lg',
         outClass: 'fade-out-right-lg',
         inDuration: 1500,

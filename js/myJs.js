@@ -8,12 +8,7 @@ $(() => {
         inDuration: 1500,
         outDuration: 800,
     });
-    // $(".header-content-inner").animsition({
-    //     inClass: 'fade-in-up-lg',
-    //     outClass: 'fade-out-up-lg',
-    //     inDuration: 3000,
-    //     outDuration: 1000,
-    // });
+    $(".header-content-inner").fadeIn(5000).removeClass('hidden')
     /*
       POPUP
      */

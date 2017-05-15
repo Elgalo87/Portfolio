@@ -4,6 +4,7 @@ $(() => {
     $(".animsition").animsition({
         inClass: 'fade-in-right-lg',
         outClass: 'fade-out-right-lg',
+        loading: false,
         inDuration: 1500,
         outDuration: 800,
     });

@@ -173,3 +173,8 @@ footer div:nth-child(2)>ul li:nth-child(1)>ul {
  #gallery1 a {
    text-decoration: none;
  }
+
+ #mainNav {
+     box-shadow: 4px 3px 9px black !important;
+         width: 100%;
+}
